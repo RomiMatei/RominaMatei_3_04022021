@@ -30,7 +30,6 @@ body {
   height: 550px;
   width: 100%;
   object-fit: fill;
-  /* object-position: 106% 8%; */
   position: absolute;
   z-index: -1;
   top: 200px;
@@ -38,12 +37,9 @@ body {
 
 .content-body {
   display: flex;
-  /* flex: 0 0 100%;*/
-  flex-direction: column;
   background-color: #f2f2f2;
   height: auto;
   width: 102%;
-  justify-content: center;
   border-top-right-radius: 4rem;
   border-top-left-radius: 4rem;
 }
@@ -128,6 +124,21 @@ h1 {
 }
 .menu-btn .prix {
   font-weight: bold;
+}
+
+.button-rose {
+  background-image: linear-gradient(to right, #f27cdb, #c633f2);
+  font-size: 1.5rem;
+  position: relative;
+  left: 34%;
+  border: none;
+  border-radius: 30px;
+  height: 60px;
+  width: 30%;
+  margin: 20px;
+  padding: 15px 20px 20px 20px;
+  color: white;
+  cursor: pointer;
 }
 
 footer {

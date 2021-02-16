@@ -82,12 +82,16 @@ span strong {
   margin: 10px;
 }
 
-.button-rose button {
+.button-rose  {
   background-image: linear-gradient(to right, #f27cdb, #c633f2);
   font-size: 1.5rem;
   border: none;
+  width: 50%;
+
+  position: relative;
+  left: 20%;
   border-radius: 30px;
-  height: 60px;
+  height: auto;
   margin: 15px;
   padding: 15px 20px 20px 20px;
   color: white;
@@ -215,10 +219,6 @@ span strong {
   text-align: center;
 }
 
-/*.number-last {
-  margin-top: 25px;
-
-}*/
 
 section {
   display: flex;
@@ -325,45 +325,37 @@ section {
 }
 
 .heart {
-  font-size: 2rem;
-  margin-right: 0;
-  position: absolute;
-  top: 74%;
-  right: 5%;
-  margin-top: 10px;
-  overflow: hidden;
+  position: relative;
 
+  .hover-icon {
+    display: none;
+  }
 
-}
+  i {
+    font-size: 24px;
+    color: #020220;
+    left: 50%;
+  }
 
+  &:hover {
+    overflow: hidden;
+    cursor: pointer;
 
+    .default-icon {
+      opacity: 0;
+      display: none;
+      transition: all 4s 0s ease;
+    }
 
-.full-heart {
-  font-size: 2rem;
-  margin-right: 0;
-  position: absolute;
-  border: none;
-  top: 74%;
-  right: 5%;
-  margin-top: 10px;
-  fill: white;
-  stroke: black;
-  stroke-width: 7%;
-  stroke-linejoin: round;
-  & :hover {
-    color: #c633f2;
+    .hover-icon {
+      opacity: 1;
+      display: unset;
+      transition: all 4s 0s ease;
+      color: #c633f2;
+    }
   }
 
 }
-
-/*button .full-heart {
-  transition-duration: 2s;
-  cursor: pointer;
-}
-
-/*.full-heart :hover {
-  color: #c633f2;
-}*/
 
 .card .footer {
   font-size: 1.2rem;
@@ -389,6 +381,10 @@ footer {
 
 .col {
   margin-left: 90px;
+  a{
+    text-decoration: none;
+    color: #ffffff;
+  }
 }
 
 footer .col {

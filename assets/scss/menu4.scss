@@ -30,27 +30,28 @@ body {
 
 
 .content-top {
-height: 550px;
+  height: 990px;
 
   img {
-    height: 550px;
-    width: 100%;
-    object-fit: fill;
+    height: 990px;
+    width: 98%;
+    object-fit: cover;
     position: absolute;
     z-index: -1;
     top: 200px;
   }
 
- 
+
 
 }
 
 .content-body {
   display: flex;
-
+  flex-direction: column;
   background-color: #f2f2f2;
   height: auto;
-  width: 102%;
+  width: 100%;
+  justify-content: center;
   border-top-right-radius: 4rem;
   border-top-left-radius: 4rem;
 }
@@ -58,7 +59,7 @@ height: 550px;
 
 
 .menu{
-display: flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -67,7 +68,7 @@ h1 {
   font-size: 3.5rem;
   min-height: 80px;
   width: 84%;
-  padding: 15px;
+  padding: 20px;
 }
 
 .heart {
@@ -78,9 +79,8 @@ h1 {
 }
 .col{
   display: flex;
-  flex: 0 0 99.99%;
-  margin-top: 15px;
-  padding: 10px;
+  padding: 15px;
+  flex-wrap: wrap;
 }
 
 .col-1 {
@@ -110,15 +110,8 @@ h1 {
 
 }
 .menu-btn {
-  border: 0;
-  line-height: 1.5;
-  padding: 5px;
-  margin: 15px;
-  font-size: 1.2rem;
-  text-align: center;
-  cursor: pointer;
+  flex: 1 0 30%;
   color: #000000;
-  border-radius: 40px;
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
@@ -136,7 +129,7 @@ h1 {
     margin-right: 20px;
   }
   & .prix {
-font-weight: bold;
+    font-weight: bold;
   }
 }
 .button-rose {
@@ -172,7 +165,7 @@ footer {
 
 
 
-footer .col {
+footer .col-footer {
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
