@@ -1,0 +1,15 @@
+//colors
+$primary: #9356DC;
+$secondary: #FF79DA;
+$tertiaire: #99E2D0;
+$grey: #f6f6f6;
+$hearts: #c366db;
+
+
+//shadows
+$box-shadow: 6px 6px 10px darken($grey, 20);
+$box-shadow-hover: 6px 6px 10px darken($grey, 30);
+
+//animations
+$card-delay: 0.3s;
+$spiner-bg-bk: rgba(10, 10, 10, 0.60);
