@@ -7,6 +7,7 @@
 
 .card {
   flex: 1 0 45%;
+  padding: 5px;
 }
 .card a {
   text-decoration: none;
@@ -15,7 +16,7 @@
 
 .card-img {
   margin: 15px;
-  height: 430px;
+  height: 400px;
   position: relative;
   background-color: white;
   border-radius: 2rem;
@@ -68,12 +69,11 @@
 .card-body .strong {
   font-weight: 900;
   font-family: "Roboto-Bold", sans-serif;
-  font-size: 1.5rem;
-  color: #222222;
+  font-size: 1.2rem;
 }
 
 .card-body .card-footer {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   width: 80%;
 }
 
@@ -297,7 +297,7 @@
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 h1.shrink {
@@ -306,8 +306,14 @@ h1.shrink {
 
 h2 {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: bold;
   color: #777777;
+}
+
+.right {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
 }
 
 body {
@@ -472,10 +478,11 @@ section {
 
 .restaurants {
   font-weight: 900;
-  font-size: 2.2rem;
+  font-size: 2rem;
   width: 100%;
   margin-bottom: 20px;
   margin-left: 20px;
+  color: black;
 }
 
 .heart {
