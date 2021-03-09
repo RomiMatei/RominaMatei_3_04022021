@@ -331,13 +331,12 @@ footer {
   margin: auto;
   padding: 30px;
 
-}
 
-.logo {
-  filter: invert(100%);
-  margin-left: 90px;
-  margin-bottom: 50px;
-  width: 300px;
+  .logo {
+    filter: invert(100%);
+    margin-bottom: 50px;
+    width: 500px;
+  }
 }
 
 
@@ -354,6 +353,7 @@ footer .col {
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 
 
   .start {
@@ -397,7 +397,7 @@ footer .col {
 /*menu*/
 
 
-.header {
+.header-menus {
   position: relative;
 
   .back-btn {
