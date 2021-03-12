@@ -500,10 +500,6 @@ section {
   opacity: 0;
   transform-origin: bottom;
   transition: opacity 250ms;
-  background:linear-gradient(#9356DC, #FF79DA);
-  background-clip: border-box;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 .heart i {
   font-size: 25px;
