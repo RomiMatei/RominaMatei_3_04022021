@@ -423,12 +423,6 @@ body {
   background-color: #f2f2f2;
   margin: 0 20px;
 }
-.header-right .number .number-button .iconback {
-  display: inline-block;
-  color: #8e8e8e;
-  min-width: 30px;
-  margin: 0 30px;
-}
 .header-right .number .number-button .iconback-number {
   background-color: #9356dc;
   display: block;
@@ -444,7 +438,14 @@ body {
 }
 .header-right .number .number-button .link-text {
   font-weight: 600;
-  min-width: 30px;
+  padding-left: 60px;
+}
+
+.number-button .iconback {
+  display: inline-block;
+  color: #8e8e8e;
+  margin: 0 30px;
+  padding-left: 30px;
 }
 
 .button-rose {
