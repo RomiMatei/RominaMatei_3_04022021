@@ -1,24 +1,107 @@
 @media screen and (max-width: 1280px) {
+  h1 {
+    padding: 20px;
+  }
+
+  h2 {
+    margin: 10px;
+  }
+
   .button-rose {
-    background-image: linear-gradient(#FF79DA, #9356DC);
-    font-size: 1.5rem;
-    border: none;
-    cursor: pointer;
-    border-radius: 30px;
-    height: auto;
-    margin: 15px;
-    padding: 15px 20px 20px 20px;
-    color: white;
-    box-shadow: 6px 6px 10px #c3c3c3;
+    width: auto;
+    margin: 30px;
   }
 
   footer .logo {
-    filter: invert(100%);
-    margin-bottom: 50px;
     width: 400px;
   }
 }
 @media screen and (max-width: 1112px) {
+  .accueil-logo img {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1rem;
+    color: #777777;
+    padding: 10px;
+  }
+
+  .button-rose {
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 60px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    box-shadow: 6px 6px 10px #c3c3c3;
+    width: auto;
+  }
+
+  .right {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+  }
+
+  .header-right .number {
+    width: 100%;
+  }
+  .header-right .number .number-button {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .header-right .number .number-button .iconback {
+    margin: 0 30px;
+  }
+  .header-right .number .number-button .link-text {
+    font-weight: 600;
+    padding-right: 40px;
+    padding-left: 50px;
+  }
+
+  section {
+    display: flex;
+    background-color: #f6f6f6;
+    height: auto;
+    width: auto;
+  }
+  section .cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  section .cards .restaurants {
+    font-weight: 900;
+    font-size: 2rem;
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: black;
+  }
+  section .cards .card {
+    flex: 1 0 100%;
+    padding: 5px;
+  }
+  section .cards .card .card-body .strong {
+    font-weight: 900;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 1.2rem;
+    width: 80%;
+  }
+
+  footer .logo {
+    width: 300px;
+  }
+
   /*Menus*/
   .content-body .menu h1 {
     font-size: 2rem;
@@ -54,68 +137,18 @@
   }
 }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
-  .accueil-logo {
-    margin: 10px;
-    display: flex;
-  }
   .accueil-logo img {
     width: 300px;
   }
 
-  .header {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    height: auto;
-    padding: 0 10px 10px 10px;
-    margin: 0;
-  }
-
-  h1 {
-    font-size: 1.4rem;
-    font-weight: 600;
+  .header h1 {
     padding: 25px 25px 10px 25px;
   }
-
-  h2 {
+  .header h2 {
     font-size: 1.1rem;
-    font-weight: 300;
-    color: #777777;
-    padding: 0 0 15px 0;
   }
-
-  .button-rose {
-    background-image: linear-gradient(#FF79DA, #9356DC);
-    font-size: 1rem;
-    border: none;
-    width: auto;
-    cursor: pointer;
-    border-radius: 30px;
-    margin: 15px;
+  .header .button-rose {
     padding: 15px 20px 20px 20px;
-    color: white;
-    box-shadow: 6px 6px 10px #c3c3c3;
-  }
-
-  /*header right*/
-  .right {
-    font-size: 1.4rem;
-  }
-
-  .header-right .number .number-button {
-    color: #484848;
-    flex: 1 0 auto;
-    position: relative;
-    font-size: 1rem;
-    padding: 15px 0;
-    border-radius: 30px;
-    background-color: #f2f2f2;
-    margin: 0 20px;
-    width: 100%;
-  }
-
-  .restaurants {
-    font-size: 1.5rem;
   }
 
   footer .logo {
@@ -123,15 +156,14 @@
     width: 300px;
   }
   footer .col {
-    font-size: 1.2rem;
     margin-left: 25px;
     margin-top: 40px;
   }
   footer .col .start {
-    width: 40%;
+    width: 30%;
   }
   footer .col .middle {
-    width: 40%;
+    width: 30%;
   }
   footer .col .end {
     margin-left: 35px;
@@ -160,6 +192,38 @@
   }
 }
 @media screen and (max-width: 834px) {
+  .accueil-logo {
+    margin: 10px;
+    display: flex;
+    width: auto;
+    justify-content: center;
+  }
+
+  .accueil-logo img {
+    width: 300px;
+  }
+
+  .header-right .number {
+    width: 100%;
+  }
+  .header-right .number .number-button {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .header-right .number .number-button .iconback {
+    display: inline-block;
+    color: #8e8e8e;
+    margin: 0 30px;
+    padding-left: 15px;
+  }
+  .header-right .link-text {
+    padding-left: 25px;
+  }
+
+  footer .logo {
+    width: 300px;
+  }
+
   /*Menus*/
   .content-body .menu h1 {
     font-size: 2rem;
@@ -195,75 +259,27 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .accueil-logo img {
-    width: 300px;
-  }
-
   h1 {
     font-size: 1.5rem;
-    font-weight: bold;
   }
 
   h2 {
     font-size: 1rem;
-    color: #777777;
-  }
-
-  .button-rose {
-    font-size: 1rem;
-    width: auto;
   }
 
   .right {
     font-size: 1.5rem;
-    font-weight: 600;
-    color: black;
   }
 
-  .header-right .number {
-    display: flex;
-    padding: 15px;
-  }
-
-  .header-right .number .number-button {
-    color: #484848;
-    flex: 1 0 auto;
-    position: relative;
-    font-size: 1rem;
-    padding: 15px 0;
-    border-radius: 30px;
-    background-color: #f2f2f2;
-    margin: 0 20px;
-    width: 100%;
+  .header-right .number .number-button .iconback {
+    padding-left: 10px;
   }
 
   #content {
-    margin-top: 50px;
-    display: flex;
-    flex: 0 0 100%;
     margin-bottom: 60px;
   }
-  #content .cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
   #content .restaurants {
-    font-weight: 900;
-    font-size: 1.5rem;
-    width: 100%;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    color: black;
-  }
-  #content .card {
-    flex: 1 0 100%;
-    padding: 5px;
-  }
-
-  footer .logo {
-    filter: invert(100%);
-    margin-bottom: 50px;
-    width: 300px;
+    width: auto;
   }
 
   /*Menus*/
@@ -309,101 +325,50 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .accueil-logo {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-  }
   .accueil-logo img {
     width: 200px;
   }
 
   .header {
     display: block;
-    padding: 10px;
-    margin: 0;
   }
 
   h1 {
-    font-size: 1.4rem;
-    font-weight: 600;
     padding: 25px 25px 10px 25px;
   }
 
   h2 {
     font-size: 1.1rem;
-    font-weight: 300;
-    color: #777777;
-    padding: 0 0 15px 0;
-  }
-
-  .button-rose {
-    font-size: 1rem;
-    width: auto;
-  }
-
-  .right {
-    font-size: 1.4rem;
   }
 
   .header-right .number .number-button {
-    color: #484848;
-    flex: 1 0 auto;
-    position: relative;
     font-size: 1.1rem;
-    padding: 15px 0;
-    border-radius: 30px;
-    background-color: #f2f2f2;
-    margin: 0 20px;
-  }
-
-  #content {
-    margin-top: 50px;
-    display: flex;
+    width: auto;
   }
 
   .cards {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 100%;
     padding-right: 15px;
-    padding-left: 0;
-    margin: auto;
   }
   .cards .card {
     padding-right: 15px;
   }
-  .cards .restaurants {
-    font-weight: 900;
-    font-size: 1.5rem;
-    margin-left: 25px;
-    margin-bottom: 5px;
-    color: black;
-  }
 
   footer .logo {
-    filter: invert(100%);
     margin-left: 5px;
-    margin-bottom: 35px;
     width: 200px;
   }
   footer .col {
     font-size: 1rem;
-    display: flex;
-    font-weight: normal;
-    flex-direction: row;
-    margin: 0;
-    height: auto;
     padding: 25px;
   }
   footer .col .start {
-    width: 40%;
+    width: 35%;
   }
   footer .col .middle {
-    width: 40%;
+    width: 35%;
   }
   footer .col .end {
-    margin-left: 35px;
+    margin-left: 0;
   }
 
   /*Menus*/
@@ -436,15 +401,16 @@
   }
 }
 @media screen and (max-width: 667px) {
-  footer .logo {
-    filter: invert(100%);
-    margin-left: 5px;
-    margin-bottom: 35px;
-    width: 200px;
+  .header {
+    padding: 5px;
   }
-  footer .col {
-    font-size: 1rem;
+  .header .header-right .number {
+    width: 100%;
   }
+  .header .right {
+    width: auto;
+  }
+
   footer .col .start {
     width: 33%;
   }
@@ -455,7 +421,8 @@
     margin-left: 0;
   }
 
-  .header {
+  /*Menus*/
+  .header-menu {
     display: block;
     padding: 10px;
     margin: 0;
@@ -541,119 +508,68 @@
   }
 }
 @media screen and (max-width: 414px) {
-  .accueil-logo {
-    margin: 10px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
   .accueil-logo img {
     width: 200px;
   }
 
   .button-rose {
-    font-size: 0.7rem;
-    width: auto;
+    font-size: 0.85rem;
   }
 
   .header-right {
     display: block;
-    padding: 0 0 15px 0;
+    margin: 0;
   }
   .header-right .number {
-    display: flex;
     justify-content: flex-end;
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .header-right .number .number-button {
     font-size: 16px;
     width: 100%;
   }
-
-  .number-button .iconback {
-    display: inline-block;
-    color: #8e8e8e;
-    padding-left: 30px;
-    margin: 0;
+  .header-right .number .number-button .iconback {
+    padding-left: 10px;
   }
-
-  .right {
-    font-size: 25px;
-    margin-left: 25px;
+  .header-right .number .number-button .link-text {
+    padding-left: 15px;
   }
 
   #content {
-    margin-top: 50px;
     margin-bottom: 60px;
   }
   #content .cards {
     padding: 0;
   }
-  #content .cards .card {
-    height: 270px;
-  }
   #content .restaurants {
-    font-weight: 900;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-left: 25px;
     margin-bottom: 5px;
-    color: black;
   }
 
   .card .card-img {
     margin: 10px;
     height: 250px;
-    position: relative;
-    background-color: white;
-    border-radius: 2rem;
-    box-shadow: 2px 2px 10px 2px #e0e0e0;
   }
   .card .card-img img {
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
     width: 100%;
     height: 165px;
-    object-fit: cover;
   }
-  .card .card-img .img-btn-left, .card .img-btn-right {
-    position: absolute;
-    top: 5%;
-    right: 3%;
-    background-color: #99e2d0;
-    color: #008766;
+  .card .card-img .img-btn-left, .card .card-img .img-btn-right {
     font-size: 13px;
     padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 3px;
   }
-
-  .card-body .strong {
-    font-weight: 900;
-    font-family: "Roboto-Bold", sans-serif;
-    font-size: 1rem;
-  }
-
-  .heart i {
+  .card .heart i {
     font-size: 20px;
-    color: #777777;
   }
-
-  .card-footer {
+  .card .card-footer {
     font-size: 0.85rem;
-    width: 80%;
     height: 340px;
-    font-weight: normal;
   }
 
   footer {
     background-color: #353535;
-    color: white;
-    margin: auto;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    padding: 30px;
   }
   footer .logo {
     filter: invert(100%);
@@ -678,7 +594,8 @@
     color: white;
   }
 
-  .header {
+  /*Menus*/
+  .header-menu {
     display: block;
     padding: 10px;
     margin: 0;
@@ -764,42 +681,9 @@
   }
 }
 @media screen and (max-width: 375px) {
-  .loading__spinner-1 {
-    position: fixed;
-    top: 50%;
-    left: 43%;
-    width: 3rem;
-    height: 3rem;
-    background-color: transparent;
-    border-radius: 50%;
-    border: 2px solid #FF79DA;
-    animation: loader 0.8s 0.4s backwards infinite;
+  .accueil-logo {
+    width: auto;
   }
-
-  .loading__spinner-2 {
-    position: fixed;
-    top: 50%;
-    left: 43%;
-    width: 3rem;
-    height: 3rem;
-    background-color: transparent;
-    border-radius: 50%;
-    border: 2px solid #FF79DA;
-    animation: loader 0.8s 0.4s backwards infinite;
-  }
-
-  .loading__spinner-3 {
-    position: fixed;
-    top: 50%;
-    left: 43%;
-    width: 3rem;
-    height: 3rem;
-    background-color: transparent;
-    border-radius: 50%;
-    border: 2px solid #FF79DA;
-    animation: loader 0.8s 0.4s backwards infinite;
-  }
-
   .accueil-logo img {
     width: 200px;
   }
@@ -822,108 +706,53 @@
   }
 
   .header-right .number {
-    width: 100%;
+    width: auto;
   }
   .header-right .number .number-button {
     font-size: 12px;
   }
   .header-right .number .number-button .iconback {
-    display: inline-block;
-    color: #8e8e8e;
     margin: 0 30px;
     padding: 0;
   }
   .header-right .number .number-button .link-text {
-    font-weight: 600;
     padding: 0;
   }
 
-  #content {
-    margin-top: 50px;
-    margin-bottom: 60px;
-  }
-  #content .cards {
-    padding: 0;
-  }
-  #content .cards .card {
-    height: 270px;
-  }
-  #content .restaurants {
-    font-weight: 900;
-    font-size: 1.4rem;
-    margin-left: 0;
-    margin-bottom: 5px;
-    padding-left: 20px;
-    color: black;
+  .restaurants {
+    width: auto;
   }
 
-  .card-img .img-btn-left {
-    position: absolute;
-    top: 5%;
-    right: 3%;
-    background-color: #99e2d0;
-    color: #008766;
-    font-size: 13px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 3px;
-  }
   .card-img .img-btn-right {
-    position: absolute;
-    top: 5%;
-    right: 3%;
-    background-color: #99e2d0;
-    color: #008766;
     font-size: 13px;
     padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 3px;
   }
 
-  .card-body .strong {
-    font-weight: 900;
-    font-family: "Roboto-Bold", sans-serif;
-    font-size: 1rem;
-  }
-  .card-body .heart i {
-    font-size: 20px;
-    color: #777777;
-  }
   .card-body .card-footer {
     font-size: 0.95rem;
-    width: 80%;
-    height: auto;
   }
 
   footer {
-    background-color: #353535;
-    color: white;
-    margin: auto;
     padding: 20px;
-  }
-  footer .logo {
-    filter: invert(100%);
-    margin-left: 5px;
-    margin-bottom: 35px;
-    width: 200px;
   }
   footer .col {
     font-size: 1rem;
+    display: block;
   }
   footer .col .start {
-    width: 16%;
+    width: 100%;
+    padding: 5px 0 5px 0;
   }
   footer .col .middle {
-    width: 16%;
+    width: 100%;
+    padding: 5px 0 5px 0;
   }
   footer .col .end {
-    width: 16%;
+    width: 100%;
+    padding: 5px 0 5px 0;
   }
   footer .col .footer-icon .fas {
-    width: 30%;
-    color: white;
+    width: 15%;
   }
 
   /*Menus*/
@@ -1084,6 +913,13 @@
   .header-right .number .number-button .link-text {
     font-weight: 600;
     padding: 0;
+  }
+
+  section .cards .card .card-body .strong {
+    font-weight: 900;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 1.2rem;
+    width: 85%;
   }
 
   /*Menus*/

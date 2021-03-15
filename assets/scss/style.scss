@@ -196,11 +196,7 @@ body {
         padding: 15px 0;
         border-radius: 30px;
         background-color: #f2f2f2;
-        margin: 0 20px;
-
-
-
-
+        margin: 0 15px;
 
         .iconback-number {
           background-color: #9356dc;
@@ -295,10 +291,6 @@ section {
 
     transform-origin: bottom;
     transition: opacity 250ms;
-    //background: linear-gradient($primary, $secondary);
-    //background-clip: border-box;
-    //background-clip: text;
-    //text-fill-color: transparent;
   }
 
   
@@ -400,7 +392,7 @@ footer .col {
 /*menu*/
 
 
-.header-menus {
+.header-menu {
   position: relative;
 
   .back-btn {
