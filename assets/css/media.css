@@ -378,6 +378,9 @@
     font-weight: normal;
   }
 
+  .cards-menu section {
+    padding: 0;
+  }
   .cards-menu .menu-details {
     font-size: 0.75rem;
     padding: 0 0 5px 0;
@@ -471,6 +474,7 @@
     width: 100%;
     margin-top: 15px;
     flex: 1 0 auto;
+    padding: 0;
   }
   .cards-menu section .menu-card hgroup {
     padding: 3px 3px 3px 13px;
@@ -792,6 +796,9 @@
     font-weight: normal;
   }
 
+  .cards-menu section {
+    padding: 0;
+  }
   .cards-menu .menu-details {
     font-size: 0.75rem;
     padding: 0 0 5px 0;

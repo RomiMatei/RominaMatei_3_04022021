@@ -134,12 +134,8 @@
 
     .menu-card {
       display: flex;
-     /* flex-wrap: nowrap;
-      flex-direction: row;
-      justify-content: space-between;*/
       background-color: white;
       box-shadow: 2px 2px 10px 2px #e0e0e0;
-      //flex: 1 0 25%;
       margin: 15px;
       border-radius: 15px;
 
@@ -189,8 +185,6 @@
 
       &:hover .circle-hover-btn {
         animation: circle-hover-btn ease .3s;
-       /* animation-fill-mode: forwards;
-        animation-iteration-count: 1;*/
         background-color: $tertiaire;
         display: block;
         flex: 0 0 15%;
