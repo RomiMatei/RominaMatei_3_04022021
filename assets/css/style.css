@@ -27,7 +27,8 @@
   border-top-right-radius: 2em;
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card-img .img-btn-left {
@@ -72,7 +73,7 @@
 
 .card-body .card-footer {
   font-size: 1.1rem;
-  width: 80%;
+  width: 90%;
   height: auto;
 }
 
@@ -486,7 +487,8 @@ section {
 }
 
 .heart {
-  position: relative;
+  position: absolute;
+  right: 20px;
 }
 .heart .hover-icon {
   position: absolute;
@@ -614,7 +616,8 @@ footer .col .end {
 .content-top img {
   height: 400px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: -1;
 }
 
@@ -699,6 +702,4 @@ footer .col .end {
     transform: scale(2);
     opacity: 0;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

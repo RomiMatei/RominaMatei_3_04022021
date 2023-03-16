@@ -281,8 +281,8 @@ section {
 
 
 .heart {
-  position: relative;
-
+  position: absolute;
+  right: 20px;
 
   .hover-icon {
     position: absolute;
@@ -293,7 +293,7 @@ section {
     transition: opacity 250ms;
   }
 
-  
+
   i {
     font-size: 25px;
     color: darken($grey, 50);
